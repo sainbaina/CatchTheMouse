@@ -216,7 +216,7 @@ class Animation @JvmOverloads constructor(
         helper.addStat(gameDuration)
     }
 
-//    @SuppressLint("SetTextI18n")
+    @SuppressLint("ClickableViewAccessibility")
     override fun onTouchEvent(event: MotionEvent): Boolean {
         val x = event.x.toInt()
         val y = event.y.toInt()
